@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tukii - Rongai Tuk-Tuk Coordination</title>
+    <link rel="stylesheet" href="Tukii.css">
+</head>
+<body>
+    <header>
+        <h1>Tukii</h1>
+        <p>Coordinate Tuk-Tuk Rides in Rongai</p>
+    </header>
+
+    <section id="register">
+        <h2>Register Your Ride</h2>
+        <form id="rideForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" required>
+                <option value="">Select Destination</option>
+                <optgroup label="Closer Stages">
+                    <option value="Adana">Adana</option>
+                    <option value="Ole Kasasi police station">Ole Kasasi Police Station</option>
+                    <option value="Manna">Manna</option>
+                </optgroup>
+                <optgroup label="Further Stages">
+                    <option value="Acacia">Acacia</option>
+                    <option value="Jabali">Jabali</option>
+                    <option value="Riverwood">Riverwood</option>
+                    <option value="Metro">Metro</option>
+                    <option value="Okari">Okari</option>
+                    <option value="Symran">Symran</option>
+                    <option value="Stadium">Stadium</option>
+                    <option value="Acacia Court">Acacia Court</option>
+                </optgroup>
+            </select><br><br>
+
+            <button type="submit">Register Ride</button>
+        </form>
+    </section>
+
+    <section id="passengerList">
+        <h2>Passenger List</h2>
+        <ul id="passengers">
+            </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
