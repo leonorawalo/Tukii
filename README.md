@@ -8,4 +8,3 @@
 - 📫 How to reach me: awaloleonora@gmail.com
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: The Firefox logo is not a fox, it's a red panda.
--->
