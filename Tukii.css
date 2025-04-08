@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background */
+}
+
+header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50; /* Green */
+    border-bottom: 2px solid #FFEB3B; /* Yellow */
+    padding-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FFEB3B; /* Yellow */
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD600; /* Darker Yellow */
+}
+
+#passengers li {
+    background-color: #E8F5E9; /* Light Green */
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
